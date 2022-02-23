@@ -3,8 +3,7 @@
  */
 package inheritance;
 
-import inheritance.restaurant.Restaurant;
-import inheritance.restaurant.review.Review;
+import inheritance.review.Review;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -57,6 +56,24 @@ class LibraryTest {
         System.out.println("Sample Town's updated starTier from review average is: " + sampleTown.starTier);
         assertEquals(2, sampleTown.starTier, "starTier did not update to equal mean of added reviewStars");
     }
+    //TODO: refactor tests
+    @Test void addMovieTest () {
 
+    }
 
+    @Test void removeMovieTest () {
+
+    }
+
+    @Test void addReviewForShopTest () {
+
+    }
+
+    @Test void addReviewForTheaterWithMovieTest () {
+
+    }
+
+    @Test void toStringTheaterTest () {
+
+    }
 }
